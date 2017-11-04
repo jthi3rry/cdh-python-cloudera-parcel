@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "name": "__PARCEL_NAME__",
+  "version": "__PARCEL_VERSION__",
+  "setActiveSymlink": true,
+
+  "depends": "",
+  "replaces": "",
+  "conflicts": "",
+
+  "provides": [
+    "spark-plugin"
+  ],
+
+  "scripts": {
+    "defines": "py_env.sh"
+  },
+
+  "packages": [
+    { "name"   : "__PARCEL_NAME__",
+      "version": "__PARCEL_VERSION__+cdh5.0.0~__OS_VERSION__-cdh5.0.0"
+    }
+  ],
+
+  "components": [
+    { "name"   : "__PARCEL_NAME__",
+      "version": "__PARCEL_VERSION__+cdh5.0.0~__OS_VERSION__-cdh5.0.0"
+    }
+  ],
+
+  "users": {},
+  "groups": []
+}
